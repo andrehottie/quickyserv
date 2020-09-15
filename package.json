@@ -2,15 +2,25 @@
   "name": "quickyserv",
   "version": "1.0.0",
   "type": "module",
-  "types": "createServer.d.ts",
-  "main": "createServer.js",
-  "description": "",
+  "types": "lib/createServer.d.ts",
+  "main": "lib/createServer.js",
+  "description": "Quick way to node server",
   "scripts": {
     "quicky": "ts-node createServer.ts",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "busce",
+  "keywords": [
+    "node",
+    "server",
+    "quick",
+    "tool",
+    "typescript",
+    "fast",
+    "nodejs",
+    "routing"
+  ],
   "license": "ISC",
   "dependencies": {
     "@types/inquirer": "^7.3.1",
