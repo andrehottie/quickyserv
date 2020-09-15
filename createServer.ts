@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { serverType, TServerInfo, TRoutes, TRoute } from "./definitions";
 import { Answers } from "inquirer";
 import inquirer = require("inquirer");
