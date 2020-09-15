@@ -4,6 +4,7 @@
   "type": "module",
   "types": "lib/createServer.d.ts",
   "main": "lib/createServer.js",
+  "bin": "lib/createServer.js",
   "description": "Quick way to node server",
   "scripts": {
     "quicky": "ts-node createServer.ts",
