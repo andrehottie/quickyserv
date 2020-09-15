@@ -21,6 +21,10 @@
     "nodejs",
     "routing"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrehottie/quickyserv.git"
+  },
   "license": "ISC",
   "dependencies": {
     "@types/inquirer": "^7.3.1",
