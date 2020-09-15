@@ -1,0 +1,25 @@
+{
+  "name": "quickyserv",
+  "version": "1.0.0",
+  "type": "module",
+  "types": "createServer.d.ts",
+  "main": "createServer.js",
+  "description": "",
+  "scripts": {
+    "quicky": "ts-node createServer.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "busce",
+  "license": "ISC",
+  "dependencies": {
+    "@types/inquirer": "^7.3.1",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "ts-node": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.10.1",
+    "typescript": "^4.0.2"
+  }
+}
