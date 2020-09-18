@@ -13,7 +13,7 @@ npm install -g quickyserv
 #### Create your server folder
 
 ```
-mkdir MyServer | cd MyServer/
+mkdir MyServer && cd MyServer
 ```
 
 #### Run QuickyServ
