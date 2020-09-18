@@ -26,16 +26,16 @@ quickyserv
 
 # More
 
-- **Simple Node Server**:
+- **`Simple Node Server`**:
   Generate a simple _server.js_ file with a node server at _0.0.0.0:3000_.
 
-- **Simple Node With HTML**:
+- **`Simple Node With HTML`**:
   Generate a simple _server.js_ file with a node server at _0.0.0.0:3000_ that returns HTML.
 
-- **Simple Node Single Page**:
+- **`Simple Node Single Page`**:
   Generate _server.js_ and _index.html_ files hosted at _0.0.0.0:3000_.
 
-- **Server with Routes [to JS]**:
+- **`Server with Routes [to JS]`**:
   You need to type the routes endpoints separated by **pipe** and it will generate a _server.js_ file with all your routes.
 
 Example:
@@ -44,7 +44,7 @@ Example:
 list|create|edit/{id}|delete/{id}
 ```
 
-- **Server with Router [to HTML]**:
+- **`Server with Router [to HTML]`**:
   You need to type the routes endpoints and filename separated by **pipe** and it will generate a _server.js_ with your routes and all the _.html_ files.
   Routes format needs to be: `{route}->{filename}`
 
