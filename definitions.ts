@@ -17,3 +17,12 @@ export type TServerInfo = {
   serverType?: string;
   routes?: TRoutes;
 };
+
+export interface SimpleServerParams {
+  selectedPort: string | number;
+  selectedHost: string;
+}
+
+export interface RoutedServerParams extends SimpleServerParams {
+  routes: TRoutes;
+}

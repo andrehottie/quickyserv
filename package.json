@@ -4,7 +4,7 @@
   "types": "lib/createServer.d.ts",
   "main": "lib/createServer.js",
   "bin": "lib/createServer.js",
-  "description": "Quick way to node server",
+  "description": "This is a JS cli tool with a friendly interface to quickly generate custom (super basic) node server",
   "scripts": {
     "quicky": "ts-node createServer.ts",
     "build": "tsc",
